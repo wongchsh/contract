@@ -1,0 +1,255 @@
+* {
+	margin:20;
+	padding:0;
+	border:0;
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+	background-color: #06101b;
+	font-size:14px;
+	font-family: Times;
+}
+
+.float {
+	width: 909px;
+	height: 1253px;
+	background-color: #060e17;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.top_image{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 4px;
+}
+
+.navigation{
+	height: 43px;
+	background-color: #060e17;
+}
+
+.navigation ul li:hover{
+	float: left;
+	list-style: none;
+	border-left: 2px solid #06101b;
+	background-color: #032148;
+	margin: 0 2px 0 -2px;
+}
+
+.navigation ul li{
+	float: left;
+	list-style: none;
+	border-left: 2px solid #06101b;
+	margin: 0 1px 0 -1px;
+}
+.navigation ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 14px;
+	padding: 12px 40px;
+	display: block;
+}
+
+.header {
+	width: 100%;
+	height: 499px;
+	background-color: #06101b;
+}
+
+.content {
+    width: 910px;
+	height: 510px;
+	overflow: hidden;
+}
+
+.rightCol {
+	float: right;
+	width: 275px;
+	height: 510px;
+	padding: 10px;
+	padding-left: 28px;
+	padding-right: 28px;
+	background-color: #060e17;
+	color: #83878b;
+}
+
+.line div {
+    border-bottom: 1px solid #0a1827; 
+}
+
+.line1{
+	border-left: 1px solid #0a1827; 
+    padding-left:28px;
+}
+
+.line3{
+	border: 1px solid #0a1827; 
+
+}
+
+.WHAT_WE_DO{
+    float:left;
+    width:247px;
+    color:#ffffff;
+	font-size:20px;
+	padding-top: 10px;
+	margin-bottom: 8px;
+}
+.WELCOME {
+    float:left;
+    width:247px;
+    color:#ffffff;
+	font-size:20px;
+	padding-top: 10px;
+	margin-bottom: 8px;
+}
+.WHY_CHOOSE_US{
+    float:left;
+    width:247px;
+    color:#ffffff;
+	font-size:20px;
+	padding-top: 10px;
+	margin-bottom: 8px;
+}
+.ssilka{
+text-decoration: none;
+color: #376194;
+}
+.ssilka:visited {
+text-decoration: none;
+color: red;
+}
+
+.ssilka1{
+padding-top: 20px;
+color: #376194;
+}
+
+.leftCol {
+	float: left;
+	width: 275px;
+	height: 510px;
+	padding: 10px;
+	padding-left: 28px;
+	padding-right: 28px;
+	background-color: #060e17;
+	color: #83878b;
+	
+}
+.line2 {
+	border-right: 1px solid #0a1827; 
+    padding-right:28px;
+}
+.center {
+    float: center;
+	width: 247px;
+	height: 510px;
+	padding: 10px;
+	padding-left: 28px;
+	padding-right: 28px;
+	margin-left: 303px;
+	background-color: #060e17;
+	color: #83878b;
+
+	
+	
+}
+
+.footer {
+	width: 100%;
+	height: 215px;
+	background: #060e17;
+	position: absolute;
+	margin-bottom: 20px;
+}
+
+.Newsletters {
+	float:left;
+	text-align:left;
+	width: 227px;
+	height: 96px;
+	margin:28px;
+	padding-left:20px;
+	background: #051325;
+	font-family:Arial;
+	font-weight:bold;
+	font-style:italic;
+	color: #6bacf5;
+	font-size: 20px;
+}
+
+.First_Client {
+	float:right;
+	margin:28px;
+	width: 517px;
+	height: 96px;
+	color: #83878b;
+	font-size:14px;
+}
+
+.Clients_First {
+    float:left;
+    color:#ffffff;
+	font-size:18px;
+}
+
+.Business{
+	float:left;
+	width:240px;
+	color: #376194;
+	margin-top:20px;
+	margin-left:28px;
+	margin-bottom:20px;
+}
+
+.PP{
+	float:right;
+	color: #6bacf5;
+}
+
+.searchfield {
+	background: #060e17;
+	padding: 6px 6px 6px 8px;
+	width: 150px;
+	height: 18px;
+	border: solid 1px #052041;
+	outline: none;
+	font-size: 12px;
+	color: #243e5a;
+}
+.searchbutton {
+	color: #f8f8f6;
+	border: solid 1px #052041;
+	font-size: 18px;
+	height: 31px;
+	width: 40px;
+	background:#6bacf5;
+
+}
+
+.line3 {
+	border: 1px solid #0a1827;
+	border-top-width: 0px;
+	margin-left:28px;
+	margin-right:28px;
+}
+
+.line4 {
+	border-bottom: 1px solid #0a1827; 
+	margin-top:150px;
+	margin-left:28px;
+	margin-right:28px;
+}
+
+.line5{
+	border-right: 2px solid #0a1827; 
+    height:95px;
+	border-left-width:50px;
+	width:253px;
+}
