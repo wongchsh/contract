@@ -4,7 +4,7 @@
 
 <mapper namespace="org.sic.contract.persistence.CompanyMapper">
 	<resultMap id="CompanyMap" type="Company">
-		<id property="Id"  column="ID"/>
+		<id property="id"  column="ID"/>
 		<id property="companyName"  column="COMPANY_NAME"/>
 		<id property="address"  column="ADDRESS"/>
 		<id property="representative"  column="REPRESENTATIVE"/>
@@ -28,7 +28,7 @@
 	</select>
 	
 	<select id="queryByName" parameterType="String" resultMap="CompanyMap">
-		SELECT * FROM TBL_COMPANY WHERE COMPANY_NAME like "%#{companyName,jdbcType=VARCHAR}%";
+		SELECT * FROM TBL_COMPANY WHERE COMPANY_NAME LIKE '%'||#{companyName,jdbcType=VARCHAR}||'%'
 	</select>
 	
 	<update id="update" parameterType="Company">

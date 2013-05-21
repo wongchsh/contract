@@ -12,4 +12,6 @@
 
 	<context:annotation-config />
  	<bean id="userService" class="org.sic.contract.service.impl.UserServiceImpl"/>
+ 	<bean id="contractService" class="org.sic.contract.service.impl.ContractServiceImpl"/>
+ 	<bean id="companyService" class="org.sic.contract.service.impl.CompanyServiceImpl"/>
 </beans>

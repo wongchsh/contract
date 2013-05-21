@@ -4,7 +4,7 @@
 
 <mapper namespace="org.sic.contract.persistence.ContractMapper">
 	<resultMap id="ContractMap" type="Contract">
-		<id property="Id"  column="ID"/>
+		<id property="id"  column="ID"/>
 		<id property="contractName"  column="CONTRACT_NAME"/>
 		<id property="fileUri"  column="FILE_URI"/>
 		<id property="md5"  column="MD5"/>

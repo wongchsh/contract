@@ -41,7 +41,7 @@ public class PictureCheckCodeAction extends ActionSupport
      IdentifyingCode idCode = new IdentifyingCode();  
      BufferedImage image =new BufferedImage(idCode.getWidth() , idCode.getHeight() , BufferedImage.TYPE_INT_BGR) ;  
      Graphics2D g = image.createGraphics() ;  
-     Font myFont = new Font("榛戜綋" , Font.BOLD , 16) ;  
+     Font myFont = new Font("Arial" , Font.BOLD , 16) ;  
      g.setFont(myFont) ;  
      g.setColor(idCode.getRandomColor(200 , 250)) ;  
      g.fillRect(0, 0, idCode.getWidth() , idCode.getHeight()) ;  
